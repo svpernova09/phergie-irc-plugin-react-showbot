@@ -1,0 +1,47 @@
+{
+    "name": "phergie/phergie-irc-plugin-react-showbot",
+    "description": "Phergie plugin for Support a live event in an irc channel",
+    "keywords": [ "phergie", "irc", "bot", "plugin" ],
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Joe Ferguson",
+            "email": "joe@joeferguson.me",
+            "homepage": "http://www.joeferguson.me",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "joe@joeferguson.me",
+        "irc": "irc://irc.freenode.net/phergie",
+        "issues": "https://github.com/phergie/phergie-irc-plugin-react-showbot/issues",
+        "source": "https://github.com/phergie/phergie-irc-plugin-react-showbot"
+    },
+    "require": {
+        "phergie/phergie-irc-bot-react": "~1",
+        "phergie/phergie-irc-plugin-react-command": "~1.0"
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.5.*",
+        "phake/phake": "2.0.0-beta2"
+    },
+    "suggest": {
+        "phergie/phergie-irc-plugin-react-commandhelp": "provides interactive help for commands"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phergie\\Irc\\Plugin\\React\\Showbot\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Phergie\\Irc\\Tests\\Plugin\\React\\Showbot\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
