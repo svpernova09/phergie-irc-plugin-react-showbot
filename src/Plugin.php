@@ -82,4 +82,18 @@ class Plugin extends AbstractPlugin
 			'actions: help, next, schedule, suggest'
 		);
 	}
+
+	/**
+	 * Send an array of response lines back to IRC
+	 *
+	 * @param \Phergie\Irc\Plugin\React\Command\CommandEvent $event
+	 * @param \Phergie\Irc\Bot\React\EventQueueInterface $queue
+	 * @param array $ircResponse
+	 */
+	protected function sendIrcResponse(Event $event, Queue $queue, array $ircResponse)
+	{
+		foreach ($ircResponse as $ircResponseLine) {
+			$this->sendIrcResponseLine($event, $queue, $ircResponseLine);
+		}
+	}
 }
