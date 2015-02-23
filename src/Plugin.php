@@ -44,6 +44,7 @@ class Plugin extends AbstractPlugin
 	public function getSubscribedEvents()
 	{
 		return array(
+			'command.sb' => 'handleCommand',
 			'command.sb.help' => 'handleCommandHelp',
 		);
 	}
@@ -56,6 +57,7 @@ class Plugin extends AbstractPlugin
 	 */
 	public function handleCommand(Event $event, Queue $queue)
 	{
+		$this->sendIrcResponse($event, $queue, $this->getHelpLines());
 	}
 
 
