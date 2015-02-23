@@ -1,5 +1,5 @@
 {
-    "name": "phergie/phergie-irc-plugin-react-showbot",
+    "name": "svpernova09/phergie-irc-plugin-react-showbot",
     "description": "Phergie plugin for Support a live event in an irc channel",
     "keywords": [ "phergie", "irc", "bot", "plugin" ],
     "license": "BSD-2-Clause",
@@ -14,14 +14,14 @@
     "support": {
         "email": "joe@joeferguson.me",
         "irc": "irc://irc.freenode.net/phergie",
-        "issues": "https://github.com/phergie/phergie-irc-plugin-react-showbot/issues",
-        "source": "https://github.com/phergie/phergie-irc-plugin-react-showbot"
+        "issues": "https://github.com/svpernova09/phergie-irc-plugin-react-showbot/issues",
+        "source": "https://github.com/svpernova09/phergie-irc-plugin-react-showbot"
     },
     "require": {
         "phergie/phergie-irc-bot-react": "~1",
         "phergie/phergie-irc-plugin-react-command": "~1.0"
 
-    },
+    },s
     "require-dev": {
         "phpunit/phpunit": "4.5.*",
         "phake/phake": "2.0.0-beta2"
