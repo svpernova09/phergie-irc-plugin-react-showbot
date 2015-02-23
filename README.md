@@ -1,8 +1,8 @@
-# phergie/phergie-irc-plugin-react-showbot
+# svpernova09/phergie-irc-plugin-react-showbot
 
-[Phergie](http://github.com/phergie/phergie-irc-bot-react/) plugin for Support a live event in an irc channel.
+[Phergie](http://github.com/phergie/phergie-irc-bot-react/) plugin for Supporting a live event in an irc channel.
 
-[![Build Status](https://secure.travis-ci.org/phergie/phergie-irc-plugin-react-showbot.png?branch=master)](http://travis-ci.org/phergie/phergie-irc-plugin-react-showbot)
+[![Build Status](https://secure.travis-ci.org/svpernova09/phergie-irc-plugin-react-showbot.png?branch=master)](http://travis-ci.org/svpernova09/phergie-irc-plugin-react-showbot)
 
 ## Install
 
@@ -11,7 +11,7 @@ The recommended method of installation is [through composer](http://getcomposer.
 ```JSON
 {
     "require": {
-        "phergie/phergie-irc-plugin-react-showbot": "dev-master"
+        "svpernova09/phergie-irc-plugin-react-showbot": "dev-master"
     }
 }
 ```
