@@ -96,4 +96,16 @@ class Plugin extends AbstractPlugin
 			$this->sendIrcResponseLine($event, $queue, $ircResponseLine);
 		}
 	}
+
+	/**
+	 * Send a single response line back to IRC
+	 *
+	 * @param \Phergie\Irc\Plugin\React\Command\CommandEvent $event
+	 * @param \Phergie\Irc\Bot\React\EventQueueInterface $queue
+	 * @param string $ircResponseLine
+	 */
+	protected function sendIrcResponseLine(Event $event, Queue $queue, $ircResponseLine)
+	{
+		$queue->ircPrivmsg($event->getSource(), $ircResponseLine);
+	}
 }
